@@ -1,0 +1,135 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: white;
+	font-family: "Trebuchet MS";
+	font-size: 17px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 25px;
+	border: solid;
+	text-align: center;
+	border-radius: 50px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	margin: 0;
+	padding: 20px 30px;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+  	background-color: #424558;
+	text-align: center;
+	color: white;
+}
+
+.foot {
+	color: orange;
+	padding: 0px 50px 0px 0px;
+}
+
+.img_banniere {
+	display: inline-block;
+	margin-left: 65px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/*Classes des titres*/
+.h1_presentation-generale {
+	border-color: #BBB;
+	color: #BBB;
+	background-color: RGBa(220, 220, 220, 0.15);
+}
+
+.h1_experiences-professionnelles {
+	border-color: #e44d26;
+	color: #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15); 
+}
+
+.h1_creations {
+	border-color: #0070bb;
+	color: #0070bb;
+	background-color: RGBa(000, 112, 192, 0.15); 
+}
+
+.h1_diplomes {
+	border-color: #f1dc4f;
+	color: #f1dc4f;
+	background-color: RGBa(241, 211, 79, 0.15); 
+}
+
+.h1_experiences-logiciels {
+	border-color: #adff2f;
+	color: #adff2f;
+	background-color: RGBa(173,255,47, 0.15);
+}
+
+/*Mise en page groupe présentation*/
+.p_presentation-generale {
+	display: inline-block;
+	padding: 15px 0px;
+}
+
+.img_pdp {
+	width: 150px;
+	float: left;
+	padding: 7px 0px;
+}
+
+.img_bv {
+	width: 45px;
+	float: left;
+}
+
+/*Style DIV*/
+.div_presentation-generale {
+	margin-left: auto;
+	margin-right: auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.div_experiences-professionnelles {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 50px 0px 0px;
+}
+
+.div_creations {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 50px 0px 0px;
+}
+
+.div_diplomes {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 50px 0px 0px;
+}
+
+.div_experiences-logiciels {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 50px 0px 0px;
+}
