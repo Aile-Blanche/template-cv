@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav > ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav > ul > li {
+  float: left;
+  position: relative;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav {
+  width: 100%;
+  background-color: #424558;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav > ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav > ul > li > a {
+  padding: 20px 30px;
+  color: #FFF;
+}
+
+.nav_presentation-generale:hover {
+  border-top: 5px solid #BBB;
+  background-color: RGBa(220, 220, 220, 0.15);
+}
+
+.nav_experiences-professionnelles:hover {
+  border-top: 5px solid #e44d26;
+  background-color: RGBa(228, 77, 38, 0.15); 
+}
+
+.nav_creations:hover {
+  border-top: 5px solid #0070bb;
+  background-color: RGBa(000, 112, 192, 0.15); 
+}
+
+.nav_diplomes:hover {
+  border-top: 5px solid #f1dc4f;
+  background-color: RGBa(241, 211, 79, 0.15); 
+}
+
+.nav_experiences-logiciels:hover {
+  border-top: 5px solid #adff2f;
+  background-color: RGBa(173,255,47, 0.15);
+}
+
+nav > ul > li:hover a {
+  padding: 15px 30px 20px 30px;
+}
